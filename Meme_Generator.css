@@ -1,0 +1,46 @@
+h1 {
+    text-align: cernter;
+    font-size: 3rem;
+}
+
+.my-container{
+    position: relative;
+}
+
+@font-face {
+    font-family: Bebas Neue;
+    src: url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+}
+
+
+.my-container > :first-child {
+    position: absolute;
+    left: 0;
+    right: 20%;
+    top: 5%; 
+    color: white;
+    -webkit-text-stroke: 2px black;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.my-container > :nth-child(3) {
+    position: absolute;
+    left: 0;
+    right: 20%;
+    bottom: 5%;
+    color: white;
+    -webkit-text-stroke: 2px black;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.my-container > :last-child{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
